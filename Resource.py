@@ -12,8 +12,8 @@ for axisY in range(3):
         item = team[axisY][axisX]
         if (axisX == 0) & ( item < 3):
             print("no enough helmets")
-        if axisX == 1:
+        if (axisX == 1) & ( item < 4):
             print("space suits")
-        if axisX == 2:
+        if (axisX == 2) & ( item < 3):
             print("oxygen")
         
